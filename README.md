@@ -74,3 +74,12 @@ const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
 
 # Exercise 7: Building A Form
 > Unleash some more power from React by building a form. React is great for this.
+
+# Exercise 8: Rendering JSON
+> Most of the time, the structure of the data we're working with in real-world applications aren't simple lists like ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse'].
+
+> A lot of data is stored in JSON format. This is especially true when you're fetching data from a database.
+
+> JSON stands for JavaScript Object Notation, a type of format for data interchange.
+
+> This type of data is just an object instead of a simpler datatype such as a string.

@@ -6,6 +6,7 @@ import ExercisesFour from "./pages/ExercisesFour";
 import ExercisesFive from "./pages/ExercisesFive";
 import ExercisesSix from "./pages/ExercisesSix";
 import ExercisesSeven from "./pages/ExercisesSeven";
+import ExercisesEight from "./pages/ExercisesEight";
 import { RouterProvider, createBrowserRouter } from "react-router-dom/dist";
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/seven",
     element: <ExercisesSeven />,
+  },  
+  {
+    path: "/eight",
+    element: <ExercisesEight />,
   },
 ]);
 
