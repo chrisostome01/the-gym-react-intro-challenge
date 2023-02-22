@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Button({text}) {
+export default function Button({onClick, text}) {
   return (
     <button
       className="bg-blue-500 text-white font-bold px-7 py-3  rounded-lg"
-      onClick={() => alert(`You clicked on ${text}`)}
+      onClick={onClick}
     >
       {text}
     </button>
