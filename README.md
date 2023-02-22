@@ -58,3 +58,19 @@ cat
 chicken
 cow
 horse
+
+
+# Exercise 6: Mapping Through A List And Rendering (With A Custom Component)
+> In exercise 3, we mentioned that part of what makes React so great is that it allows us to create our custom, re-usable components.
+
+> You only created a custom button there. This time, you'll create a custom component that displays each item from exercise 5:
+
+```javascript
+const animals = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
+```
+> Instead of using the <ul> and <li> HTML tags, create a custom component that accepts a list as its prop, and renders it accordingly.
+
+> It's up to you how you want this list will look like. I decided mine to look like this:
+
+# Exercise 7: Building A Form
+> Unleash some more power from React by building a form. React is great for this.
