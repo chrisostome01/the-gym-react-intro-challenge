@@ -3,7 +3,7 @@ import ExercisesOne from "./pages/ExercisesOne";
 import ExercisesTwo from "./pages/ExercisesTwo";
 import ExercisesThree from "./pages/ExercisesThree";
 import ExercisesFour from "./pages/ExercisesFour";
-import ExercisesFive from "./pages/ExercisesFour";
+import ExercisesFive from "./pages/ExercisesFive";
 import { RouterProvider, createBrowserRouter } from "react-router-dom/dist";
 
 const router = createBrowserRouter([
