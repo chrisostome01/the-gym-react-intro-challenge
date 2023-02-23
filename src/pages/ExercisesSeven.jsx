@@ -11,14 +11,14 @@ export default function ExercisesSeven() {
       <div className="flex gap-9 items-center justify-center h-screen flex-col">
         <input
           type="text"
-          className="block border py-4 px-4 rounded-md w-[300px]"
+          className="block border p-4 rounded-md w-[300px]"
           placeholder="Firtname"
           value={firstname}
           onChange={(e) => setFirstname(e.target.value)}
         />
         <input
           type="text"
-          className="block border py-4 px-4 rounded-md w-[300px]"
+          className="block border p-4 rounded-md w-[300px]"
           placeholder="Lastname"
           value={lastname}
           onChange={(e) => setLastname(e.target.value)}
