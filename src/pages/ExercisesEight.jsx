@@ -4,9 +4,6 @@ import Nav from "../components/Nav"
 
 export default function ExercisesEight() {
   const [cardsData, setCardsData] = useState(data.content)
-  useEffect(() => {
-    console.log(data)
-  },[])
 
   return (
     <>
