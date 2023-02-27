@@ -15,9 +15,7 @@ export default function ExercisesSix() {
     <>
       <Nav />
       <div className="flex items-center justify-center h-screen flex-col">
-        {animal.map((value) => {
-          return <CustomComponent value={value} />;
-        })}
+        {animal.map((value,index) => <CustomComponent key={index} value={value} /> )}
       </div>
     </>
   );
