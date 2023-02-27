@@ -1,12 +1,17 @@
 import React from "react";
 import ExercisesOne from "./pages/ExercisesOne";
-import { RouterProvider, createBrowserRouter } from "react-router-dom/dist";
+import ExercisesTwo from "./pages/ExercisesTwo";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <ExercisesOne />,
-  }
+  },
+  {
+    path: "/two",
+    element: <ExercisesTwo />,
+  },
 ]);
 
 function App() {
